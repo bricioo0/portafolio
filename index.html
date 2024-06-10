@@ -17,13 +17,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="home">inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="Portafolio">Mi Portafolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="contactanos">Contactame</a>
                     </li>
                 </ul>
             </div>
@@ -34,7 +34,7 @@
 
 
    
-        <header class="text-center py-5">
+        <header id="Home" class="text-center py-5">
             <img src="img/jj.png" alt="YO" class="rounded-circle" width="150">
             <h1>Bricio Matos</h1>
             <p>desarrollador web</p>
@@ -70,15 +70,69 @@
 
 
             </div>
+        
 
 
 
+         <center>
 
-
-
-
-
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">Sobre mi</div>
+                <div class="card-body">
+                  <h5 class="card-title">desarrollador web</h5>
+                  <p class="card-text">Soy un chico que se esfuerza para hacer bien su trabajo teniendo un buen comporomiso con las tareas de la pagina, teniendo siempre el respeto con el cliente</p>
+                </div>
+              </div>
+            </center>
+</div>
+<section id="contact" class="container my-5">
+    <h2>Contacto</h2>
+    <hr>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="name" required>
         </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</section>
+
+<footer class="footer-custom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Sobre mí</h5>
+                <p>Breve descripción de tu perfil profesional. Incluye tu experiencia, habilidades y logros.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Contacto</h5>
+                <p>Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+                <p>Teléfono: <a href="tel:+123456789">+123 456 789</a></p>
+            </div>
+            <div class="col-md-4">
+                <h5>Sígueme</h5>
+               
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <p>© 2024 Tu Nombre. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
    
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
       <script src="script.js"></script>
