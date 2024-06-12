@@ -7,6 +7,7 @@ body{
 }
 .navbar-custom {
     background-color: #343a40;
+    position: fixed;
 }
 
 .navbar-custom:focus{
@@ -70,7 +71,17 @@ h2{
     margin: 50px;
     box-shadow:  0 0 10px #ff00ff, 0 0 20px #00ffff, 0 0 30px #ff00ff;;
 }
+.container{
+  color: #ffffff;
 
+}
+#contact{
+    background-color: #00d4ff;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    
+}
 .footer-custom {
     background-color: #343a40;
     color: #ffffff;
@@ -120,6 +131,13 @@ h2{
 
 
 
-section{
-    color: #ffffff;
-}
+
+
+
+
+
+
+
+
+
+
